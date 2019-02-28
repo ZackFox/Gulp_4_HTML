@@ -1,0 +1,22 @@
+@import "./includes/vars";
+
+//----
+.header {
+  background: red;
+}
+
+.navigation {
+}
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  &-inner,
+  &-inner:before,
+  &-inner:after {
+    background: #fff;
+  }
+}
